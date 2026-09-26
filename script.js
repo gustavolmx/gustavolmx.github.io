@@ -19,7 +19,7 @@ const observer = new IntersectionObserver((entries)=>{
 
 });
 
-document.querySelectorAll(".card, .project, .content")
+document.querySelectorAll(".card, .project, .content, .timeline-item")
 .forEach(el=>{
     observer.observe(el);
 });

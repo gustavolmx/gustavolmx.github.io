@@ -160,9 +160,8 @@ nav a:hover{
 
 .cards{
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
     gap:20px;
-    margin-top:50px;
 }
 
 .card{
@@ -174,6 +173,91 @@ nav a:hover{
 
 .card:hover{
     transform:translateY(-10px);
+}
+
+/* ================================
+   SKILLS CATEGORIZADAS
+================================ */
+
+.skills-category{
+    margin-top:50px;
+}
+
+.skills-category:first-of-type{
+    margin-top:50px;
+}
+
+.category-label{
+    color:var(--gray);
+    letter-spacing:2px;
+    font-size:12px;
+    text-transform:uppercase;
+    margin-bottom:20px;
+}
+
+/* ================================
+   FORMAÇÃO (Educação + Cursos)
+================================ */
+
+.timeline-list{
+    margin-top:70px;
+    border-top:1px solid var(--line);
+}
+
+.timeline-item{
+    padding:40px 0;
+    border-bottom:1px solid var(--line);
+    transition:
+        background .4s ease,
+        padding .4s ease;
+}
+
+.timeline-item:hover{
+    background:#090909;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.timeline-category{
+    display:block;
+    margin-bottom:12px;
+    color:#666;
+    font-size:10px;
+    letter-spacing:3px;
+}
+
+.timeline-item h3{
+    font-family:"Space Grotesk", sans-serif;
+    font-size:26px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+
+.timeline-item p{
+    color:#888;
+    font-size:14px;
+    line-height:1.8;
+}
+
+@media (max-width:600px){
+
+    .timeline-item{
+        padding:28px 0;
+    }
+
+    .timeline-item:hover{
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    .timeline-item h3{
+        font-size:20px;
+    }
+
+    .timeline-item p{
+        font-size:13px;
+    }
+
 }
 
 /* ================================
