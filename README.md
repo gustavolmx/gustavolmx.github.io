@@ -2,11 +2,11 @@
 
 Repositório oficial do meu portfólio web pessoal, desenvolvido para apresentar meus projetos, habilidades técnicas e certificações profissionais de forma limpa, responsiva e direta ao ponto.
 
-🔗 **Acesse o portfólio online:** [gustavolmx.github.io](https://gustavolmx.github.io)
+ **Acesse o portfólio online:** [gustavolmx.github.io](https://gustavolmx.github.io)
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 O projeto foi construído utilizando tecnologias web nativas, sem dependências de frameworks pesados, garantindo alta performance e carregamento rápido:
 
@@ -16,7 +16,7 @@ O projeto foi construído utilizando tecnologias web nativas, sem dependências 
 
 ---
 
-## 📂 Estrutura do Repositório
+##  Estrutura do Repositório
 
 ```text
 ├── index.html    # Página principal (Seções: Sobre, Skills, Formação, Projetos e Contato)
